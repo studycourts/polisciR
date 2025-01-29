@@ -1,0 +1,5 @@
+name: guided_manuscript
+description: >
+   This template includes a guide for how to write a paper formatted in the
+   style of a mid-2020s political science conference paper.
+create_dir: TRUE

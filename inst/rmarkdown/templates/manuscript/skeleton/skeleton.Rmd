@@ -1,0 +1,43 @@
++---
+title: "title"
+thanks: "thanks"
+abstract: "abstract"
+author:
+  - name: author
+    affiliation: affiliation
+    email: email
+    number: 1
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  bookdown::pdf_document2:
+    template: manuscript_template.tex
+    keep_tex: true
+    always_allow_html: true
+bibliography: references.bib
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, include = FALSE, 
+                      message = FALSE, warning = FALSE)
+
+source("figcap-above.R")
+knitr::knit_hooks$set(plot = figcapabove_hook_plot_tex)
+
+options(tinytex.clean = FALSE)
+
+```
+
+```{r libs}
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse) 
+
+
+
+```
+
+<!-- Your References section will appear here -->
+
+\clearpage
