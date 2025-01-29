@@ -14,11 +14,9 @@ title: "polisciR"
 
 <!-- PROJECT LOGO -->
 
-+---------------------------------------------------------------------------------------------------+:------------------------------------------:+
-| ###                                                                                               | ![](images/polisciR-logo.png){width="45%"} |
-|                                                                                                   |                                            |
-| ### <strong>polisciR</strong> is a package of templates for stuff that political scientists make. |                                            |
-+---------------------------------------------------------------------------------------------------+--------------------------------------------+
+![](images/polisciR-logo.png){width="45%"}
+
+### <strong>polisciR</strong> is a package of templates for stuff that political scientists make.
 
 <!-- TABLE OF CONTENTS -->
 
