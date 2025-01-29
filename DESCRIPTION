@@ -1,16 +1,15 @@
 Package: polisciR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Make Political Science Stuff
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Rebecca", "Gill",
+      email = "rebecca.gill@unlv.edu",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Templates for Political Scientists
+License: MIT License
 Encoding: UTF-8
 LazyData: true
