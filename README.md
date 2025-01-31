@@ -1,7 +1,3 @@
----
-title: "polisciR"
----
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a id="readme-top"></a> <!--
@@ -14,9 +10,11 @@ title: "polisciR"
 
 <!-- PROJECT LOGO -->
 
-![](images/polisciR-logo.png)
+<img align="right" src="https://github.com/studycourts/polisciR/blob/main/images/polisciR-logo.png" alt="polisciR logo" style="width:20%; height:auto;">
 
-### <strong>polisciR</strong> is a package of templates for stuff that political scientists make.
+### polisciR
+
+a package of templates for stuff that political scientists make
 
 <!-- TABLE OF CONTENTS -->
 
@@ -26,13 +24,9 @@ title: "polisciR"
 
 <ol>
 
-<li>
+<li><a href="#about-the-project">About The Project</a>
 
-<a href="#about-the-project">About The Project</a>
-
-<li>
-
-<a href="#getting-started">Getting Started</a>
+<li><a href="#getting-started">Getting Started</a>
 
 <li><a href="#prerequisites">Prerequisites</a></li>
 
@@ -53,6 +47,14 @@ title: "polisciR"
 </ol>
 
 </details>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -111,11 +113,12 @@ devtools::install_github("studycourts/polisciR")
 
 <!-- USAGE EXAMPLES -->
 
-## Using **polisciR** Templates
+## Usage
 
 To use **polisciR** templates from inside RStudio, start by creating a new file through the menus: `File -> New File -> R Markdown`. You'll see a dialog box where you can select from one of the available templates:
 
-<figure>![](images/polisciR-screenshot1.png){width="50%"}</figure>
+<img src="https://github.com/studycourts/polisciR/blob/main/images/polisciR-screenshot1.png" alt="New Markdown from Template Screenshot" style="width:60%; height:auto;">
+
 
 You can use the templates outside of RStudio, but you’ll also need [Pandoc](https://pandoc.org) ([find some help here](https://bookdown.org/yihui/rmarkdown-cookbook/install-pandoc.html)). Then, you can use the `rmarkdown::draft()` function to create your political science stuff:
 
