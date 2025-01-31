@@ -28,7 +28,6 @@ title: "polisciR"
 
 <li><a href="#about-the-project">About The Project</a>
 
-<li><a href="#getting-started">Getting Started</a>
 
 <li><a href="#prerequisites">Prerequisites</a></li>
 
@@ -111,11 +110,6 @@ devtools::install_github("studycourts/polisciR")
 
 To use **polisciR** templates from inside RStudio, start by creating a new file through the menus: `File -> New File -> R Markdown`. You'll see a dialog box where you can select from one of the available templates:
 
-<figure>
-
-![](images/polisciR-screenshot1.png){width="50%"}
-
-</figure>
 
 You can use the templates outside of RStudio, but you’ll also need [Pandoc](https://pandoc.org) ([find some help here](https://bookdown.org/yihui/rmarkdown-cookbook/install-pandoc.html)). Then, you can use the `rmarkdown::draft()` function to create your political science stuff:
 
@@ -169,8 +163,6 @@ If your template isn't quite ready for prime time, you can use a [draft PR](http
 
 ## Roadmap
 
--   [ ]  Add a conference presentation template
--   [ ]  Add a CV template that embeds .bib files
 
 See the [open issues](https://github.com/studycourts/polisciR/issues) for a full list of proposed features (and known issues).
 
@@ -215,7 +207,6 @@ Project Link: <https://github.com/studycourts/polisciR>
 -   [Thomas J. Leeper](https://github.com/leeper/apsa-leeper.bst). This is the source of the BibTeX style file used in these templates: apsa-leeper.bst.
 -   [Othneil Drew](https://github.com/othneildrew/Best-README-Template). The README file you're looking at right now is thanks to this great template.
 -   [hexSticker](https://github.com/GuangchuangYu/hexSticker). The adorable logo was made here.
--   [Freepic.](https://www.flaticon.com/free-icons/spark" title="spark icons") The sparkles in the **polisciR** package icon are from here.
 -   A lot more folks whose ideas made their way into the code years ago before I ever thought about making a package out of my goofy little templates.
 
 <p align="right">
