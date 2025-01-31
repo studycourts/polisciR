@@ -14,7 +14,7 @@ title: "polisciR"
 
 <!-- PROJECT LOGO -->
 
-![](images/polisciR-logo.png){width="45%"}
+![](images/polisciR-logo.png)
 
 ### <strong>polisciR</strong> is a package of templates for stuff that political scientists make.
 
@@ -169,8 +169,8 @@ If your template isn't quite ready for prime time, you can use a [draft PR](http
 
 ## Roadmap
 
--   [ ] Add a conference presentation template
--   [ ] Add a CV template that embeds .bib files
+-   [ ]  Add a conference presentation template
+-   [ ]  Add a CV template that embeds .bib files
 
 See the [open issues](https://github.com/studycourts/polisciR/issues) for a full list of proposed features (and known issues).
 
