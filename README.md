@@ -97,14 +97,23 @@ To get up and running, you'll need to make sure you've got a few things handled:
 
 ### Installation
 
-Once you've ensured that you've got all the prerequisites organized, you can install the **polisciR** package and the [bookdown](https://bookdown.org/) package on which it relies)
+Once you've ensured that you've got all the prerequisites organized, you can install the **polisciR** package.
 
 ``` r
-if (!require("devtools")) {
-  install.packages("devtools", repos = "http://cran.rstudio.org")
-}
-devtools::install_github("rstudio/bookdown")
-devtools::install_github("studycourts/polisciR")
+install.packages("remotes")
+remotes::install_github("studycourts/polisciR")
+```
+
+If you get an error message that you have bad credentials, you may need to generate a new PAT token. You can do this by going to [github/settings/tokens](https://github.com/settings/tokens). Generate a new token with the `repo` and `read:packages` scopes. Click "Generate token" and copy it. From there, run the following in the R console:
+
+``` r
+gitcreds::gitcreds_set()
+```
+
+When prompted, paste your new credential. Then repeat the installation:
+
+``` r
+remotes::install_github("studycourts/polisciR")
 ```
 
 (<a href="#readme-top">back to top</a>)
